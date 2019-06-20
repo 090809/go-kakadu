@@ -20,6 +20,8 @@ func main() {
 			log.Fatalln("File .env.example exists! Rename it to .env, before we go")
 		}
 		log.Fatalf("Error .env loading: %v", err.Error())
+	} else {
+		log.Println(".env file loaded")
 	}
 
 	var (
@@ -27,6 +29,8 @@ func main() {
 		publicURL = os.Getenv("PUBLIC_URL") // you must add it to your config vars
 		token     = os.Getenv("TOKEN")      // you must add it to your config vars
 	)
+
+	log.Printf("Here we go: %v", []string{port, publicURL, token})
 
 	webhook := &tb.Webhook{
 		Listen:   ":" + port,
