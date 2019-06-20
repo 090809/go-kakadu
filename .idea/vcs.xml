@@ -2,4 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/github.com/mic
+    <mapping directory="$PROJECT_DIR$/src/github.com/micro/go-micro" vcs="Git" />
+  </component>
+</project>

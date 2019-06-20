@@ -48,6 +48,7 @@ func main() {
 	}
 
 	b.Handle("/start", func(m *tb.Message) {
+		log.Print("Handled /start command")
 		_, err := b.Send(m.Sender, "Hi!")
 		if err != nil {
 			log.Fatalln(err)
