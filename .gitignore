@@ -22,3 +22,5 @@ vendor/
 
 # Ignore idea files
 .idea
+
+sqlboiler.toml
