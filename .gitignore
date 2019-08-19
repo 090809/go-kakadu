@@ -21,6 +21,6 @@
 .env
 
 # Ignore idea files
-.idea
+/.idea
 
 sqlboiler.toml
