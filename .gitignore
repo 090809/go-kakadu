@@ -15,7 +15,7 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-vendor/
+/vendor/
 
 # Ignore deployment or dev env files
 .env
